@@ -5,14 +5,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #3B373B;
   }
   .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #3B373B;
     font-size: 60px;
     font-weight: bolder;
   }
   
+  .projects h1 {
+    text-align: center;
+    color: #3B373B;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+
   .projectList {
     width: 70vw;
     height: auto;
@@ -25,17 +33,23 @@
   /* MENU ITEM STYLING */
   
   .projectItem {
-    border-radius: 25px;
-    width: 300px;
+    border-radius: 10px;
+    width: 400px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    /* border-width: 5px;
+    border-color: #3e497a;
+    border-style: solid; */
+    background-color: #CBD4DD;
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); */
     text-align: center;
+    color: #3B373B;
   }
   .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5); */
+    transition: 0.2s ease-in;
     cursor: pointer;
+    background-color: #D1EDFD;
   }
   
   .projectItem .bgImage {
@@ -52,24 +66,35 @@
     font-size: 25px;
   }
   
-  @media only screen and (max-width: 1600px) {
+  @media only screen and (max-width: 2200px) {
     .projectList {
       grid-template-columns: 1fr 1fr;
     }
   }
   
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr;
     }
   }
   
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1300px) {
     .projectList {
       width: 100%;
     }
     .projectItem {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .projectItem {
       width: 300px;
       height: 300px;
+    }
+
+    .projects h1 {
+      font-size: 35px;
     }
   }

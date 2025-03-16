@@ -10,6 +10,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="socialMedia">
+                {/* TODO: make clickable! */}
                 <EmailIcon></EmailIcon>
                 <LinkedInIcon></LinkedInIcon>
                 <GitHubIcon></GitHubIcon>
