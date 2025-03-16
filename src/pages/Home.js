@@ -9,13 +9,13 @@ function Home() {
         <div className="home">
             <div className="about">
                 <h2>Sara Steeves</h2>
-                <div className="prompt">
+                <div >
                     <p>Software developer... - take from cv summary</p>
                     {/* TODO: add cv icon/link */}
                     {/* TODO: update with correct links */}
-                    <a href="mailto:sarasteeves@gmail.com"><EmailIcon></EmailIcon></a>
-                    <a href="https://www.google.com"><LinkedInIcon></LinkedInIcon></a>
-                    <a href="https://www.google.com"><GitHubIcon></GitHubIcon></a>
+                    <a href="mailto:sarasteeves@gmail.com" className="email"><EmailIcon></EmailIcon></a>
+                    <a href="https://www.google.com" className="linkedIn"><LinkedInIcon></LinkedInIcon></a>
+                    <a href="https://www.google.com" className="github"><GitHubIcon></GitHubIcon></a>
                     
                 </div>
             </div>

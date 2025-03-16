@@ -9,11 +9,11 @@ function Experience() {
     return (
         // TODO: add details from CV
         <div className="experience">
-            <VerticalTimeline lineColor="#3e497a">
+            <VerticalTimeline lineColor="#3B373B">
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--education"
                     date="2009-2012"
-                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#F2E455", color: "#fff"}}
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">University of Cambridge</h3>
@@ -22,7 +22,7 @@ function Experience() {
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
                     date="2013-2019"
-                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#EABDCF", color: "#fff"}}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Costello Medical</h3>
@@ -31,7 +31,7 @@ function Experience() {
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
                     date="2019-2024"
-                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#EABDCF", color: "#fff"}}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Costello Medical</h3>
@@ -40,7 +40,7 @@ function Experience() {
                 <VerticalTimelineElement 
                     className="vertical-timeline-element--work"
                     date="2024-present"
-                    iconStyle={{background: "#3e497a", color: "#fff"}}
+                    iconStyle={{background: "#85C5DF", color: "#fff"}}
                     icon={<CodeIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Independent Game Development</h3>
