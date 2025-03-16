@@ -12,10 +12,9 @@ function Home() {
                 <div className="prompt">
                     <p>Highly collaborative software engineer adept at finding and encouraging others to find creative solutions.</p>
                     {/* TODO: add cv icon/link */}
-                    {/* TODO: update with correct links */}
-                    <a href="mailto:sarasteeves@gmail.com" className="email"><EmailIcon></EmailIcon></a>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="linkedIn"><LinkedInIcon></LinkedInIcon></a>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="github"><GitHubIcon></GitHubIcon></a>
+                    <a href="mailto:sarasteeves@gmail.com" className="email"><EmailIcon/></a>
+                    <a href="https://www.linkedin.com/in/sara-steeves" target="_blank" rel="noopener noreferrer" className="linkedIn"><LinkedInIcon/></a>
+                    <a href="https://github.com/sarasteeves" target="_blank" rel="noopener noreferrer" className="github"><GitHubIcon/></a>
                     
                 </div>
             </div>
@@ -25,7 +24,7 @@ function Home() {
                 <ol className="list">
                     <li className="item">
                         <h2>Web Development</h2>
-                        <span>Angular, Flutter, NodeJS, ExpressJS, NestJS, PostgreSQL, MongoDB, DigitalOcean, Supabase, Git, Jira</span>
+                        <span>Angular, Flutter, Node.js, Express, NestJS, PostgreSQL, MongoDB, DigitalOcean, Supabase, Git, Jira</span>
                     </li>
                     <li className="item">
                         <h2>Languages</h2>

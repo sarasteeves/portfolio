@@ -10,10 +10,9 @@ function Footer() {
     return (
         <div className="footer">
             <div className="socialMedia">
-                {/* TODO: make clickable! */}
-                <EmailIcon></EmailIcon>
-                <LinkedInIcon></LinkedInIcon>
-                <GitHubIcon></GitHubIcon>
+                <a href="mailto:sarasteeves@gmail.com"><EmailIcon/></a>
+                <a href="https://www.linkedin.com/in/sara-steeves" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
+                <a href="https://github.com/sarasteeves" target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>
             </div>
             <p>&copy; {currentYear} Sara Steeves</p>
         </div>
