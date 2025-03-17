@@ -13,6 +13,7 @@ export const PersonalProjectList = [
         development: "I created the app using Flutter and Supabase as a fast way to prototype functionality. The app can be built for multiple platforms, including mobile, from the same code base. The app is currently deployed using Netlify while development is ongoing.",
         outcome: "The app is still under development, however I am currently using the app to schedule design, development, marketing, art and sound production tasks for a commercial game I plan to release in 2025. Key features to be added prior to full launch include integration with Toggl and Xero APIs for time tracking, and support for task editing and scheduling in bulk.",
         url: "https://fancy-sherbet-5468c3.netlify.app/",
+        tags: ['Flutter', 'dart', 'Supabase', 'Web', 'App', 'Solo', 'Fullstack']
     },
     {
         name: "Web Game",
@@ -24,7 +25,8 @@ export const PersonalProjectList = [
         design: "Playable as a web build",
         development: "",
         outcome: "I completed the game ahead of the deadline.",
-        url: "https://nationalvelvett.itch.io/karma"
+        url: "https://nationalvelvett.itch.io/karma",
+        tags: ['Godot', 'gdscript', 'Web', 'Game', 'Solo']
     },
 
 ];

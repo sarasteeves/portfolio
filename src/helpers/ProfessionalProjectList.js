@@ -11,7 +11,8 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null
+        url: null,
+        tags: ['Web', 'App', 'Team']
     },
     {
         name: "Delphi Panel App",
@@ -23,7 +24,8 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null
+        url: null,
+        tags: ['Web', 'App', 'Team']
     },
     {
         name: "Contract Management App",
@@ -35,7 +37,8 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null
+        url: null,
+        tags: ['Web', 'App', 'Team']
     },
     {
         name: "Cloud File Permissions Wrapper",
@@ -47,7 +50,8 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null
+        url: null,
+        tags: ['Web', 'App', 'Team']
     },
 
 ];
