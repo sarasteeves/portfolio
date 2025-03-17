@@ -7,7 +7,6 @@ import CodeIcon from "@mui/icons-material/Code";
 
 function Experience() {
     return (
-        // TODO: add details from CV
         <div className="experience">
             <VerticalTimeline lineColor="#3B373B">
                 <VerticalTimelineElement 
