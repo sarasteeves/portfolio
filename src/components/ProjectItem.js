@@ -6,7 +6,7 @@ function ProjectItem({ image, name, id }) {
 
     return (
         <div 
-            className="projectItem" 
+            className={image ? "projectItem" : "professionalProjectItem"} 
             onClick={() => {
                 navigate("/project/" + id);
             }}

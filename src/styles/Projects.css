@@ -53,6 +53,32 @@
     cursor: pointer;
     background-color: #D1EDFD;
   }
+
+  .professionalProjectItem {
+    /* border-radius: 25px; */
+    width: 400px;
+    height: 75px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-width: 2.5px;
+    border-color: #CBD4DD;
+    border-style: solid;
+    /* background-color: #CBD4DD; */
+    text-align: center;
+    color: #3B373B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .professionalProjectItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border-color: #D1EDFD;
+    background-color: #D1EDFD;
+  }
   
   .projectItem .bgImage {
     /* border-top-left-radius: 10px; */
@@ -65,6 +91,10 @@
   }
   
   .projectItem h1 {
+    font-size: 25px;
+  }
+
+  .professionalProjectItem h1 {
     font-size: 25px;
   }
 
@@ -139,6 +169,15 @@
     }
 
     .projectItem h1 {
+      font-size: 25px;
+    }
+
+    .professionalProjectItem {
+      width: 300px;
+      height: 75px;
+    }
+
+    .professionalProjectItem h1 {
       font-size: 25px;
     }
   }
