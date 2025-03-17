@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.42ecf7e6.css",
+    "main.js": "/portfolio/static/js/main.bdfea1f1.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Karma.png": "/portfolio/static/media/Karma.f7839a61f94a4480d296.png",
+    "static/media/PlanAndTrack.png": "/portfolio/static/media/PlanAndTrack.2344c90a0d6ab65ba591.png",
+    "index.html": "/portfolio/index.html",
+    "main.42ecf7e6.css.map": "/portfolio/static/css/main.42ecf7e6.css.map",
+    "main.bdfea1f1.js.map": "/portfolio/static/js/main.bdfea1f1.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42ecf7e6.css",
+    "static/js/main.bdfea1f1.js"
+  ]
+}
