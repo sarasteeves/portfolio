@@ -5,7 +5,8 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import ProjectDisplay from './pages/ProjectDisplay';
+import PersonalProject from './pages/PersonalProject';
+import ProfessionalProject from './pages/ProfessionalProject';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element = {<Home/>} />
           <Route path="/projects" element={<Projects/>} />
-          <Route path="/project/:id" element={<ProjectDisplay/>} /> 
+          <Route path="/personal_project/:id" element={<PersonalProject/>} /> 
+          <Route path="/professional_project/:id" element={<ProfessionalProject/>} /> 
           <Route path="/experience" element={<Experience/>} />
         </Routes>
         <Footer></Footer>

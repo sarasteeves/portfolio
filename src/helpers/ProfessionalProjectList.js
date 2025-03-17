@@ -1,9 +1,10 @@
 import SiftLogo from '../assets/sift-logo.svg';
 
+/* Place in descending order of importance */
+
 export const ProfessionalProjectList = [
     {
         name: "Literature Review App",
-        image: SiftLogo,
         tech: "Angular, NodeJS, Express, PostgreSQL",
         highlights: "",
         role: "",
@@ -11,12 +12,10 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null,
         tags: ['Web', 'App', 'Team']
     },
     {
         name: "Delphi Panel App",
-        image: SiftLogo,
         tech: "Angular, NodeJS, Express, PostgreSQL",
         highlights: "",
         role: "",
@@ -37,7 +36,6 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null,
         tags: ['Web', 'App', 'Team']
     },
     {
@@ -50,7 +48,6 @@ export const ProfessionalProjectList = [
         design: "",
         development: "",
         outcome: "",
-        url: null,
         tags: ['Web', 'App', 'Team']
     },
 

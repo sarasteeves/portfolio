@@ -1,22 +1,37 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "../styles/ProjectDisplay.css";
-import { PersonalProjectList } from "../helpers/PersonalProjectList";
 import { ProfessionalProjectList } from "../helpers/ProfessionalProjectList";
+import { PersonalProjectList } from "../helpers/PersonalProjectList";
 import LinkIcon from "@mui/icons-material/Link";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
-// TODO: show other projects as side bar/list
 
-
-function ProjectDisplay() {
+function ProfessionalProject() {
     const { id } = useParams();
-    const project = PersonalProjectList[id];
+    const project = ProfessionalProjectList[id];
+    const navigate = useNavigate();
 
     return (
         <div className="project">
-            <h1>{project.name}</h1>
-            <img src={project.image}/>
+            <div className="headerBar">
+                <NavigateBeforeIcon onClick={() => {
+                    Number(id) === 0 ? navigate("/personal_project/" + (PersonalProjectList.length -1))
+                        : navigate("/professional_project/" + (Number(id) - 1))
+                }} />
+                <h1>{project.name}</h1>
+                <NavigateNextIcon 
+                    onClick={() => {
+                        Number(id) >= (ProfessionalProjectList.length - 1) ?
+                            navigate("/personal_project/" + 0)
+                            : navigate("/professional_project/" + (Number(id) + 1)) 
+                    }}
+                />
+            </div>
+            
+            {/* <img src={project.image}/> */}
             <p>
                 <b>Tech Stack:</b> {project.tech}
             </p>
@@ -28,13 +43,11 @@ function ProjectDisplay() {
             }
             { project.repo &&
                 <a href={project.repo} target="_blank" rel="noopener noreferrer" className="link">
-                    <LinkIcon/>
+                    <GitHubIcon/>
                     <p>View Code</p>
                 </a>
             }
-            
-            {/* TODO: show github icon if there is public code */}
-            {/* TODO: show url if there is public version of app */}
+
             <div className="highlights">
                 <div className="details">
                     <h2>Highlights</h2>
@@ -65,4 +78,4 @@ function ProjectDisplay() {
     );
 }
 
-export default ProjectDisplay;
+export default ProfessionalProject;

@@ -6,7 +6,7 @@ import { ProfessionalProjectList } from "../helpers/ProfessionalProjectList";
 import CloseIcon from "@mui/icons-material/Close";
 
 function Projects() {
-    const [tags, setTags] = useState(['Web', 'Game']);
+    const [tags, setTags] = useState(['Web']);
 
     const id = useId();
 
@@ -49,6 +49,28 @@ function Projects() {
                 : ''}
             </div>
 
+            <h1>Professional Projects</h1>
+            <div className="projectList">
+                { ProfessionalProjectList
+                .filter((project) => matchTags(project.tags, tags))
+                .map((project, index) =>{
+                    return (
+                        <div>
+                            <ProjectItem id={index} name={project.name}/>
+                            <div className="tagContainer">
+                                {project.tags.map((tag) => {
+                                    return (
+                                        <p onClick={addTag(tag)} className="tag">
+                                            {tag}
+                                        </p>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
             <h1>Personal Projects</h1>
             <div className="projectList">
                 { PersonalProjectList
@@ -71,27 +93,7 @@ function Projects() {
                 })}
                 
             </div>
-            <h1>Professional Projects</h1>
-            <div className="projectList">
-                { ProfessionalProjectList
-                .filter((project) => matchTags(project.tags, tags))
-                .map((project, index) =>{
-                    return (
-                        <div>
-                            <ProjectItem id={index} name={project.name}/>
-                            <div className="tagContainer">
-                                {project.tags.map((tag) => {
-                                    return (
-                                        <p onClick={addTag(tag)} className="tag">
-                                            {tag}
-                                        </p>
-                                    );
-                                })}
-                            </div>
-                        </div>
-                    );
-                })}
-            </div>
+
         </div>
     )
 }
