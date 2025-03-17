@@ -28,6 +28,11 @@
     width: 40%;
     font-size: 30px;
   }
+
+  .about .cvLink {
+    color: #3B373B;
+  }
+
   .email svg {
     font-size: 60px;
     margin: 5px;

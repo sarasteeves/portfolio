@@ -42,7 +42,7 @@ export const ProfessionalProjectList = [
         role: "This app was developed as a 4-person team. I made the initial app design and prepared front and back-end specifications. I reviewed code from the other developers and contributed to front and back-end development.",
         objectives: "To establish a central, searchable system to record all client and supplier contracts, and track the contract review process. The app would be used by scientific and internal teams across the company to request contract reviews, be able to monitor their progress and refer back to contract details.",
         design: "I supplemented the brief from the Legal team with research into competitor offerings, interviews with other user groups and my own knowledge of the contracting process to set out required features and map out user journeys.",
-        development: "I supervised development and assisted with writing more complex front-end pages and SQL queries, including creating custom SQL functions to conduct searches across database tables and columns. The scope of the app changed during development so I made adjustments to replace certain features so we could stay on schedule.",
+        development: "I supervised development and assisted with writing more complex front-end pages and database queries, including creating custom SQL functions to conduct searches across database tables and columns. The scope of the app changed during development so I made adjustments to replace certain features so we could stay on schedule.",
         outcome: "The app was released on time and prompted discussions to consider moving other company processes into internally-developed apps.",
         tags: ['Angular', 'Express', 'Sequelize', 'Web', 'App', 'Team']
     },

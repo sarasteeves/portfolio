@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Resume from '../assets/Sara Steeves - Resume.pdf';
 import "../styles/Home.css"
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
                 <h2>Sara Steeves</h2>
                 <div className="prompt">
                     <p>Highly collaborative software engineer adept at finding and encouraging others to find creative solutions.</p>
-                    {/* TODO: add cv icon/link */}
+                    <a href={Resume} target="_blank" rel="noopener noreferrer" className="cvLink"><p>CV/Resume</p></a>
                     <a href="mailto:sarasteeves@gmail.com" className="email"><EmailIcon/></a>
                     <a href="https://www.linkedin.com/in/sara-steeves" target="_blank" rel="noopener noreferrer" className="linkedIn"><LinkedInIcon/></a>
                     <a href="https://github.com/sarasteeves" target="_blank" rel="noopener noreferrer" className="github"><GitHubIcon/></a>
