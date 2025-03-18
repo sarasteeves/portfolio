@@ -11,7 +11,7 @@ function Home() {
             <div className="about">
                 <h2>Sara Steeves</h2>
                 <div className="prompt">
-                    <p>Highly collaborative software engineer adept at finding and encouraging others to find creative solutions.</p>
+                    <p>Highly collaborative software engineer adept at finding creative solutions to development challenges</p>
                     <a href={Resume} target="_blank" rel="noopener noreferrer" className="cvLink"><p>CV/Resume</p></a>
                     <a href="mailto:sarasteeves@gmail.com" className="email"><EmailIcon/></a>
                     <a href="https://www.linkedin.com/in/sara-steeves" target="_blank" rel="noopener noreferrer" className="linkedIn"><LinkedInIcon/></a>
@@ -29,11 +29,11 @@ function Home() {
                     </li>
                     <li className="item">
                         <h2>Languages</h2>
-                        <span>JavaScript, Python, C++, TypeScript, HTML, CSS</span>
+                        <span>JavaScript, TypeScript, HTML, CSS/SCSS, Dart, Python, C++</span>
                     </li>
                     <li className="item">
                         <h2>Other Skills</h2>
-                        <span>Solutions Engineering, Automation, Product Design, Product Management, Leadership, Client Relationships</span>
+                        <span>Solutions Engineering, Automation, Product Design, Product Management, Project Co-Ordination, Leadership, Client Relationships</span>
                     </li>
                 </ol>
             </div>
